@@ -1,32 +1,6 @@
 /******************************************************
 GENERAL
 ******************************************************/
-/*COLORS
-Primary Dark = #1B2355
-Pimary Light = #A0CCE3
-Secondary Dark = #F66464
-Secondary Light = #E79294
-Tertiary Dark = #8A859B
-Tertiary Mid = #BAC0BA
-Tertiary Light = #E8ECEF
-
-FONTS
-font-family: 'Contrail One', cursive;
-font-family: 'Work Sans', sans-serif;
-*/
-
-/* .main-image {
-  background-image: url("http://image.lanrenzhoumo.com/tailor/online/20180508134341_799bad5a3b514f096e69bbc4a7896cd9.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-  width: 100vw;
-} */
-
-/* .main {
-  border: 1px solid black;
-  height: 50vh;
-} */
 
 
 body {
@@ -149,7 +123,6 @@ flex-direction: row;
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
 .navbar {
   width: 100%;
 }
@@ -158,7 +131,7 @@ flex-direction: row;
     float: none;
   }
 
-}
+
 
 .navbar{
   color: #2EBCB4;
@@ -237,18 +210,7 @@ MAIN (#about-me)
 /******************************************************
 PROJECTS
 ******************************************************/
-#projects {
-  padding-top: 10px;
-  text-align: center;
-  box-sizing: border-box;
-  border: 1px solid #000;
-}
-#projects header {
-  padding: 0 10%;
-}
-#projects p {
-  text-align: center;
-}
+
 
 .syndeseed-project {
   border: solid;
@@ -298,22 +260,11 @@ margin-left: 40px;
   margin-left: 255px;
 }
 
-div.portfolio-img {
-  height: 20vh;
-  background-size: cover;
-  background-position: center 15%;
-}
+
+
 
 section#projects > div {
   padding: 10px 0 10px 0;
-}
-
-section#projects > div:nth-child(odd) {
-  background-color: #E8ECEF
-}
-
-section#projects > div:nth-child(even) {
-  background-color: #BAC0BA
 }
 
 
@@ -378,31 +329,6 @@ ul li {
 }
 
 
-
-.accessory {
-  height: 6px;
-  background-image: radial-gradient(
-    closest-side,
-    hsla(0, 0%, 50%, 1.0),
-    hsla(0, 0%, 50%, 0) 100%);
-  position: relative;
-}
-.accessory:after {
-  position: absolute;
-  top:  50%;
-  left: 50%;
-  display:block;
-  background-color: hsl(0, 0%, 75%);
-  height: 12px;
-  width:  12px;
-  transform: rotate(45deg);
-  margin-top:  -10px;
-  margin-left: -10px;
-  border-radius: 4px 0;
-  border: 4px solid hsla(0, 0%, 100%, 0.35);
-  background-clip: padding-box;
-  box-shadow: -10px 10px 0 hsla(0, 0%, 100%, 0.15), 10px -10px 0 hsla(0, 0%, 100%, 0.15);
-}
 
 /******************************************************
 CONTACT AND MEDIA
