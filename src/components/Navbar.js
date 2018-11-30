@@ -8,15 +8,17 @@ import Contact from './Contact'
 export default class Navbar extends Component {
   render(){
     return (
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/resume">Resume</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/projects">Projects</Link></li>
-        </ul>
-      </nav>
+      <nav className="navbar">
+        <div>
+          <button className= "button-sizing"><Link to="/">Home</Link></button>
+          <button className="about-sizing"><Link to="/about">About</Link></button>
+          <button className="resume-sizing"><Link to="/resume">Resume</Link></button>
+          <button className="contact-sizing"><Link to="/contact">Contact</Link></button>
+          <button className="projects-sizing"><Link to="/projects">Projects</Link></button>
+        </div>
+    </nav>
+
+
 
     )
 

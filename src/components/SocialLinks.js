@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 export default class Social extends Component {
   render() {
     return (
@@ -14,6 +13,7 @@ export default class Social extends Component {
         <p>
           Linkedin: https://www.linkedin.com/in/karina-pietra-b64ab1124
         </p>
+
       </div>
     )
   };

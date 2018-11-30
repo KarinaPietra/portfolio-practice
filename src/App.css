@@ -27,11 +27,14 @@ font-family: 'Work Sans', sans-serif;
   border: 1px solid black;
   height: 50vh;
 } */
+
+
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
+
 h1 {
-  font-family: 'Contrail One', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 p {
   text-align: justify;
@@ -41,6 +44,9 @@ i {
   margin-right: 10%;
 }
 
+
+
+
 a.to-top, a.to-top:visited {
   color: #F66464;
 }
@@ -48,75 +54,167 @@ a.to-top, a.to-top:visited {
 /******************************************************
 NAVIGATION
 ******************************************************/
-nav {
-  background-color: #1B2355;
+
+
+/* .button-sizing{
+ width: 12%;
+ height: 120px;
+ position: relative;
+ top: 240px;
+ left: 115px;
+ right: -420px;
+ bottom: -191px;
+ border: solid;
+ border-radius: 7px;
+ background-color: #E4E4E4;
+
+
+}
+.about-sizing {
+  width: 12%;
+  height: 120px;
+  position: relative;
+  top: 240px;
+  left: 170px;
+  right: -420px;
+  bottom: -191px;
+  border: solid;
+  border-radius: 7px;
+  background-color: #E4E4E4;
+
 }
 
-nav h1, nav a, nav a:visited {
-  color: #E8ECEF;
+.resume-sizing {
+  width: 12%;
+  height: 120px;
+  position: relative;
+  top: 240px;
+  left: 230px;
+  right: -420px;
+  bottom: -191px;
+  border: solid;
+  border-radius: 7px;
+  background-color: #E4E4E4;
+
 }
 
-nav a {
-  text-decoration: none;
+.contact-sizing {
+  width: 12%;
+  height: 120px;
+  position: relative;
+  top: 240px;
+  left: 290px;
+  right: -420px;
+  bottom: -191px;
+  border: solid;
+  border-radius: 7px;
+  background-color: #E4E4E4;
+
 }
 
-nav h1 {
+.projects-sizing {
+  width: 12%;
+  height: 120px;
+  position: relative;
+  top: 240px;
+  left: 350px;
+  right: -420px;
+  bottom: -191px;
+  border: solid;
+  border-radius: 7px;
+  background-color: #E4E4E4;
+
+} */
+
+.navbar button {
+  background-color: #E4E4E4;
+  border-radius: 7px;
+  margin-left: 65px;
+  height: 100px;
+  width: 120px;
+
+
+}
+
+
+.navbar div {
+display: flex;
+flex-direction: row;
+
+}
+
+.button-sizing {
+  position: sticky;
+  top: 60px;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+.navbar {
+  width: 100%;
+}
+  .navbar button {
+    width: 100%;
+    float: none;
+  }
+
+}
+
+.navbar{
+  color: #2EBCB4;
+  position: relative;
   display: inline-block;
-  margin: 20px;
-  font-size: 30px;
+
+
 }
 
-nav ul {
-  background-color: #1B2355;
-  padding: 0;
-  text-align: center;
-  font-size: 0;
+
+.main-nav button {
+border-radius: 7px;
+width: 150px;
+height: 40px;
+margin-right: 10px;
+margin-left: 60px;
+background-color: #E9FFF5;
+
+}
+.main-top-nav{
+  position: fixed;
+  top: 0;
+  background-color: #21BBB6;
+  width: 100%;
+
+}
+.education li {
+  list-style: none;
 }
 
-nav ul li {
-  display: inline-block;
-  width: 19vw;
-  font-size: 1rem;
-  margin: 5px auto;
-  border-right: 1px solid #E79294;
+.education h1 {
+  font-size: 20px;
 }
-
-nav ul li:first-of-type {
-  margin-left: 2.5vw;
-}
-
-nav ul li:last-of-type {
-  border-right: 0;
-}
-
-article {
-  display: block;
+.education ul {
+  margin-left: -50px;
 }
 
 /******************************************************
 HOME
 ******************************************************/
+
 .home-page {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   text-align: center;
-  background-image: url("http://image.lanrenzhoumo.com/tailor/online/20180508134341_799bad5a3b514f096e69bbc4a7896cd9.jpg");
+  /* background-image: url("http://image.lanrenzhoumo.com/tailor/online/20180508134341_799bad5a3b514f096e69bbc4a7896cd9.jpg"); */
+  background-image: url(./images/0.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 100vh;
 }
 
-#home {
-  /*border: 1px solid red;*/
-  height: 90vh;
-  text-align: center;
-  text-align: center;
-  background: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
-  background-size: cover;
-  filter: invert(100%);
-  -webkit-filter: invert(100%);
-}
+
+
+
 
 #home header {
   position: relative;
@@ -134,13 +232,7 @@ HOME
 /******************************************************
 MAIN (#about-me)
 ******************************************************/
-#about-me {
-  padding-top: 10px;  /* as opposed to margin-top which doesn't work*/
-  text-align: center;
-}
-#about-me div {
-  margin: 0 10%;
-}
+
 
 /******************************************************
 PROJECTS
@@ -156,6 +248,54 @@ PROJECTS
 }
 #projects p {
   text-align: center;
+}
+
+.syndeseed-project {
+  border: solid;
+  width: 55%;
+  padding-left: 5%;
+  background-color: #E9FFF5;
+  margin-top: 40px;
+  margin-left: 210px;
+
+}
+
+.background-color-projects {
+  background-color: #21BCB6;
+}
+
+#heroku-link {
+  margin-left: 130px;
+}
+.syndeseed-project h1 {
+margin-left: 210px;
+
+}
+
+.syndeseed-project p {
+  margin-left: 63px;
+}
+#synd-center {
+
+margin-left: 40px;
+}
+
+.g2p-project {
+  border: solid;
+  width: 55%;
+  margin-top: 20px;
+  padding-left: 5%;
+  background-color: #E9FFF5;
+  margin-left: 210px;
+
+}
+
+.g2p-project p {
+  margin-left: 70px;
+}
+
+.g2p-project h1 {
+  margin-left: 255px;
 }
 
 div.portfolio-img {
@@ -176,39 +316,68 @@ section#projects > div:nth-child(even) {
   background-color: #BAC0BA
 }
 
-div.iron-man {
-  background-image: url(./images/IronMan.jpg);
-}
 
-.phoenix {
-  background-image: url(./images/Phoenix.jpg);
-}
-
-.storm {
-  background-image: url(./images/Storm.jpg);
-}
-
-.gambit {
-  background-image: url(./images/Gambit.jpg);
-}
 
 /******************************************************
 RESUME
 ******************************************************/
-#resume {
-  padding-top: 10px;
-  padding-right: 10vw;
+
+
+#resume-intro {
+
+  list-style: none;
+  font-weight: bold;
+  margin-left: -15px;
+  font-size: 1em;
+
 }
 
-#resume h1 {
-  text-align: center;
+#resume-intro-edit{
+  margin-top:7px;
+  margin-left:-5px;
+  list-style: none;
 }
 
-#resume header {
-  padding: 0 10%;
-  text-align: center;
+
+#special-indent {
+  margin-left: 17px;
+  font-size: .8em;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
 }
-*:before, *:after { content: ''; }
+
+#special-indent-right {
+  margin-left: 45px;
+}
+
+.resume-background-info h1 {
+  font-size: 25px;
+
+}
+
+ul li {
+  /* list-style: none; */
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: .8em;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+
+}
+
+
+
+
+
+.border-fill {
+  background-color: #E9FFF5;
+  margin: 20px;
+  padding: 10px;
+
+}
+
+
 
 .accessory {
   height: 6px;
@@ -239,7 +408,8 @@ RESUME
 CONTACT AND MEDIA
 ******************************************************/
 .resume-color{
-  background-color: lightblue;
+  background-color: #21BCB6;
+  font-family: 'Roboto', sans-serif;
 }
 
 #contact2 {
@@ -343,11 +513,14 @@ aside#social a {
 .about {
   width: 50%;
   margin: 0 auto;
+  border: solid;
+  background-color: #E9FFF5;
+  border-radius: 7px;
 
 }
 
 .about-color{
-  background-color: lightblue;
+  background-color: #21BCB6;
   height: 100vh;
   padding-top: 150px;
 }

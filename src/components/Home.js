@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar'
 
 
 export default class Home extends Component {
@@ -6,14 +7,13 @@ export default class Home extends Component {
     return(
       <div className="home-page">
         <div>
-          <h1>
-            Hello. Welcome to Karina Pietras Portfolio
+          <h1 className="hello">
+            Hello. Welcome to Karina Pietra's Portfolio
           </h1>
+            <Navbar />
         </div>
-        <h3>
-          Explore
-        </h3>
       </div>
+
     )
 
   }

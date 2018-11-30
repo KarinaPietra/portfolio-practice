@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.0.17"
+    "react-scripts": "1.0.17",
+    "video-react": "^0.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
