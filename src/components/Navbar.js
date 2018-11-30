@@ -10,11 +10,11 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar">
         <div>
-          <button className= "button-sizing"><Link to="/">Home</Link></button>
-          <button className="about-sizing"><Link to="/about">About</Link></button>
-          <button className="resume-sizing"><Link to="/resume">Resume</Link></button>
-          <button className="contact-sizing"><Link to="/contact">Contact</Link></button>
-          <button className="projects-sizing"><Link to="/projects">Projects</Link></button>
+          <button id="home-link"><Link to="/">Home</Link></button>
+          <button id="about-link"><Link to="/about">About</Link></button>
+          <button id="resume-link"><Link to="/resume">Resume</Link></button>
+          <button id="contact-link"><Link to="/contact">Contact</Link></button>
+          <button id="project-link"><Link to="/projects">Projects</Link></button>
         </div>
     </nav>
 
