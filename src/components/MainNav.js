@@ -9,7 +9,7 @@ export default class MainNav extends Component {
   render(){
     return (
     <div className= "main-nav">
-      <nav className="main-top-nav">
+      <nav className= "main-nav">
           <button>
             <Link to="/">Home</Link>
           </button>

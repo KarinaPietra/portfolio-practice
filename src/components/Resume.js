@@ -14,7 +14,7 @@ export default class Resume extends Component {
       <div className="resume-background-info">
         <h1>Karina Pietra</h1>
           <ul>
-          <li id="resume-intro">An Out- of-the-box thinker and innovative problem solver who approaches projects using extensive research-based practices to arrive at data-driven solutions. A dedicated professional has the ability to utilize and support financial databases to extract, interpret, maintain and analyze data models and reports.</li>
+          <li>An Out- of-the-box thinker and innovative problem solver who approaches projects using extensive research-based practices to arrive at data-driven solutions. A dedicated professional has the ability to utilize and support financial databases to extract, interpret, maintain and analyze data models and reports.</li>
           <li> Phone: (786) 271-0148 </li>
           <li>Address: Miami, FL</li>
           <li>Email: karinapietra95@gmail.com</li>
@@ -43,7 +43,7 @@ export default class Resume extends Component {
       </div>
 
       <div>
-        <h3 className="resume-title">Professional Experience</h3>
+        <h1>Professional Experience</h1>
         <ul>
           <li id="resume-intro">Wyncode Miami, Fl</li>
           <li id="resume-intro-edit">Full Stack Developer (Septmeber 2018 - Present)</li>

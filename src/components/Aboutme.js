@@ -9,7 +9,7 @@ export default class About extends Component{
         <div className="about-color">
           <MainNav />
         <div className= "main">
-        <img src="" alt="picture of me"/>
+        <img src="/images/profile-pic.jpg" alt="picture of me"/>
           <div className="about">
             <p>Hi I am Karina,</p>
             <p>

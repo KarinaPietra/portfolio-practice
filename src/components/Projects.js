@@ -10,7 +10,7 @@ render(){
   return(
   <div className="background-color-projects">
       <MainNav />
-    <div className="syndeseed-project">
+    <div className="project-container">
       <h1>SyndeSeed</h1>
       <p>Programed the front and back end of a web application </p>
       <p id= "synd-center">that serves as a platform for Investors and Entrepreneurs to meet</p>
@@ -20,7 +20,7 @@ render(){
       <iframe width="560" height="315" src="https://www.youtube.com/embed/_1UvMKU5XEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <div className="g2p-project">
+    <div className="project-container">
     <h1>G2P</h1>
     <p>Programmed the front end of a Bathroom Locating App</p>
     <p id= "heroku-link">Start Exploring G2P:
