@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Social from './SocialLinks'
 import MainNav from './MainNav'
+import img from '../images/profile-pic.jpg';
 
 
 export default class About extends Component{
@@ -9,8 +10,10 @@ export default class About extends Component{
         <div className="about-color">
           <MainNav />
         <div className= "main">
-        <img src="/images/profile-pic.jpg" alt="picture of me"/>
-          <div className="about">
+          <div className="profile-pic-container">
+            <img src={img} alt="me" className ="profile-pic" />
+          </div>
+        <div className="about">
             <p>Hi I am Karina,</p>
             <p>
               I am a dedicated, hardworking, strategic problem solver who graduated from the University of Florida with a B.S. in Finance and as Full Stack Web Developer from Wyncode Academy. I have a passion for people and data, specifically what data can do for people. From both my personal and professional experiences, I believe that great change can be achieved by shifting our economic sectors from traditional to agile practices in order to adapt positively to our evolving societies. The following paragraph is a snippet from one of my writings to give you an insight to my thoughts.

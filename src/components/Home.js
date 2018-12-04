@@ -7,10 +7,17 @@ export default class Home extends Component {
   render(){
     return(
       <div className="home-page">
-
+        <div className="home-head">
           <h1>
-            Hello. Welcome to Karina Pietra's Portfolio
+            Hi, Welcome To My Portfolio
           </h1>
+          <h2>
+            My Name is Karina Pietra
+          </h2>
+          <h3>
+            More About Me is Just A Click Away
+          </h3>
+        </div>
 
         <div className= "dotted">
 

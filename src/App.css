@@ -77,9 +77,13 @@ HOME
 
 .home-page h1 {
 color: #E9FFF5;
+font-family: 'Mali', cursive;
+
 }
-
-
+.home-head {
+color: #E9FFF5;
+font-family: 'Mali', cursive;
+}
 
 .navbar button {
   padding: .5rem;
@@ -180,22 +184,36 @@ MAIN (#about-me)
 ******************************************************/
 
 .about {
-  margin: 3rem;
   padding: 1rem;
   background-color: #E9FFF5;
   border-radius: 7px;
   font-family: 'Roboto', sans-serif;
 
+
 }
 
 .about-color{
   background-color: #21BCB6;
+
 }
 
 #snippet {
   font-style: italic;
 }
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 
+
+}
+
+.profile-pic {
+  width: 70%;
+}
+.profile-pic-container {
+  text-align: center;
+}
 
 
 /*********
@@ -287,103 +305,58 @@ CONTACT AND MEDIA
 ******************************************************/
 
 
-#contact2 {
-  margin-left: 20%;
-}
-
-#contact2 h1 {
-  padding-left: 30%;
-
-}
-#contact {
-  background-color: #A0CCE3;
-  padding: 15px 5px;
-}
-
-#contact header h2 {
+.contact h1 {
   text-align: center;
 }
+.contact p {
+  text-align: center;
+  size: 2em;
+}
 
-#form {
+#linkedin-image {
+width: 20%;
+
+}
+
+#github-image {
+  width: 20%;
+}
+
+#email-image {
+width: 10%;
+}
+
+.email-direction {
+  display: flex;
+  flex-direction: column;
+}
+.email-direction p {
+  margin-top: .5em;
+  font-weight: bold;
+}
+
+
+.icon-linkedin-direction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.github-icon-direction {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#contact form {
-  width: 80%;
-  margin-left: 10%;
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
-#contact input, #contact textarea {
-  width: 95%;
-  border-radius: 5px;
-  border-color: #1B2355;
-  border-width: 1px;
-}
-
-
-#form textarea {
-  width: 75vw;
-}
-
-#message {
-  height: 150px;
-}
-
-#contact input:focus, #contact textarea:focus {
-  outline: 3px solid rgba(27, 35, 85, 0.5);
-  -moz-outline-radius: 25px;
-}
-
-#contact label, #contact input {
-  display: block;
-}
-
-#contact input[type="submit"] {
-  background-color: #F66464;
-  border-radius: 5px;
-  border-style: solid;
-  border-color: #F66464;
-}
-
-#contact input[type="submit"]:active {
-  background-color: #c33f3f;
-  border-color: #E79294
-}
-
-aside#social {
-  height: 50px;
-  text-align: center;
-  margin-top: 15px;
-}
-
-aside#social i {
-  float: none;
-  margin-left: 15px;
-}
-
-aside#social a {
-  text-decoration: none;
-}
-
-#socials {
-  background-color: lightblue;
-  margin: 0 auto;
-  width: 50vw;
-  position: fixed;
-  bottom: 0;
-  margin: 0 30%;
-  text-align: center;
-}
-
-
-
-.box {
-  border-style: solid;
-  /* width: 50%;
-  margin: 10% auto; */
-}
 
 
 /******************************************************/

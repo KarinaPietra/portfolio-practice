@@ -20,11 +20,12 @@ export default class MainNav extends Component {
             <Link to="/resume">Resume</Link>
           </button>
           <button>
-            <Link to="/contact">Contact</Link>
-          </button>
-          <button>
             <Link to="/projects">Projects</Link>
           </button>
+          <button>
+            <Link to="/contact">Contact</Link>
+          </button>
+
 
       </nav>
     </div>

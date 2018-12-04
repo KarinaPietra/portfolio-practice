@@ -13,8 +13,8 @@ export default class Navbar extends Component {
           <button id="home-link"><Link to="/">Home</Link></button>
           <button id="about-link"><Link to="/about">About</Link></button>
           <button id="resume-link"><Link to="/resume">Resume</Link></button>
-          <button id="contact-link"><Link to="/contact">Contact</Link></button>
           <button id="project-link"><Link to="/projects">Projects</Link></button>
+          <button id="contact-link"><Link to="/contact">Contact</Link></button>
         </div>
     </nav>
 
