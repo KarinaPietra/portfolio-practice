@@ -17,8 +17,7 @@ render(){
      <p id= "heroku-link">Start Exploring SyndeSeed:
         <a href= "https://syndeseed.herokuapp.com/"> Click Me!</a>
       </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/_1UvMKU5XEw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nBkW3gjQIRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
 
     <div className="project-container">
     <h1>G2P</h1>
