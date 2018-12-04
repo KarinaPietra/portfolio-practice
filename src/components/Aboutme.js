@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Social from './SocialLinks'
 import MainNav from './MainNav'
-import img from '../images/profile-pic.jpg';
+import img from '../images/me-speaking.jpg';
 
 
 export default class About extends Component{

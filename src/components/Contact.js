@@ -31,18 +31,22 @@ export default class Contact extends Component {
           </p>
         </div>
         <div className="social-icon">
+        <div className="linkdin">
         <p className="icon-linkedin-direction">
           <a href="https://www.linkedin.com/in/karina-pietra-b64ab1124/">
           <img id="linkedin-image"src={img} alt="linkedln"/>
           </a>
           Linkdin Profile
         </p>
+      </div>
+        <div className="github">
         <p className="github-icon-direction">
           <a href="https://github.com/KarinaPietra">
           <img id="github-image"src={img2} alt="github"/>
           </a>
           Github Profile
         </p>
+      </div>
       </div>
         </div>
 
